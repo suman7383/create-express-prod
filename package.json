@@ -1,7 +1,7 @@
 {
   "name": "create-express-prod",
   "description": "CLI tool for create expressjs projects",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "bin/cli.js",
   "bin": {
     "create-express-prod": "./bin/cli.js"
@@ -10,14 +10,18 @@
     "bin",
     "templates"
   ],
-  "keywords": ["express", "cli", "express-prod", "express-setup"],
+  "keywords": [
+    "express",
+    "cli",
+    "express-prod",
+    "express-setup"
+  ],
   "author": "Suman Mukherjee",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/suman7383/create-express-prod"
   },
-
   "dependencies": {
     "commander": "^12.1.0",
     "fs-extra": "^11.2.0",
