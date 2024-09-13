@@ -1,0 +1,10 @@
+# Ignore everything
+   *
+
+   # But include these files and directories
+   !bin/**
+   !templates/**
+   !src/**
+   !package.json
+   !README.md
+   !LICENSE
